@@ -1,0 +1,23 @@
+{
+  "name": "codex-scheduler",
+  "version": "0.3.0",
+  "description": "Plan your time in Codex with Apple Calendar and Reminders on macOS.",
+  "author": {
+    "name": "turambarr",
+    "url": "https://github.com/turambarr"
+  },
+  "repository": "https://github.com/turambarr/codex-scheduler",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Codex Scheduler",
+    "shortDescription": "Plan your time with Apple Calendar and Reminders.",
+    "longDescription": "Find free time, preview a schedule, and confirm calendar and reminder changes inside Codex. Runs locally on macOS.",
+    "developerName": "turambarr",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/turambarr/codex-scheduler",
+    "privacyPolicyURL": "https://github.com/turambarr/codex-scheduler/blob/main/PRIVACY.md"
+  }
+}

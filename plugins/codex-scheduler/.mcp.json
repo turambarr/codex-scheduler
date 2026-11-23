@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codex_scheduler": {
+      "command": "/bin/bash",
+      "args": ["scripts/launch-mcp.sh"],
+      "cwd": ".",
+      "env_vars": ["CODEX_SCHEDULER_APP", "CODEX_SCHEDULER_STORE", "CODEX_SCHEDULER_TIME_ZONE"]
+    }
+  }
+}

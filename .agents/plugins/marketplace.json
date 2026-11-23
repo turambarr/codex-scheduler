@@ -1,0 +1,20 @@
+{
+  "name": "turambarr-tools",
+  "interface": {
+    "displayName": "turambarr Tools"
+  },
+  "plugins": [
+    {
+      "name": "codex-scheduler",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-scheduler"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

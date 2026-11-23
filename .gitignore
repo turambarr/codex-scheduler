@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+.cache/
+dist/
+*.app/
+*.sqlite*
+*.db
+*.log
+__pycache__/
+.env
+.env.*
